@@ -47,7 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const FlutterLogo(size: 72),
+                  Image.asset('assets/icon/gym_logo.png', width: 82, height: 82),
                   const SizedBox(height: 12),
                   Text('Bem-vindo(a) ao App Gym',
                       style: Theme.of(context).textTheme.titleLarge),
